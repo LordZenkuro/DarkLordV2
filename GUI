@@ -127,21 +127,55 @@ noslow.MouseButton1Down:connect(function()
 		Title = "No Slow";
 		Text = "Activated";
 	})
-script=function()
-    imagine=game.Players.LocalPlayer.Character.DescendantAdded:connect(function(v)
-        game:GetService('RunService').Stepped:wait()
-        if (not v:FindFirstAncestorWhichIsA("Tool") and v:IsA("BodyVelocity") and v.Name~="Flying") then
-            v:Destroy();
-        end;
-        if v.Name=='Action' or v.Name=='Attacking' or v.Name=='Using' or v.Name=='hyper' or 
-            v.Name=='Hyper' or v.Name=='heavy' or v.Name=='Tele' or v.Name=='tele' or 
-            v.Name=='Killed' or v.Name=='Slow' then
-            v:remove();
-        end; 
-    end);
-end;
-script();
-game.Players.LocalPlayer.CharacterAdded:connect(script);
+	if not game:IsLoaded() then 
+		game.Loaded:Wait() 
+	end 
+	wait()
+
+	while wait() do
+		for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+			if v.Name == "Justice Combination" then
+				local action = game.Players.LocalPlayer.Character:WaitForChild("Action")
+				if action then wait() action:Destroy() end end
+			if v.Name == "Action" then
+				v:Destroy()
+			end
+			if v.Name == "Attacking" then
+				v:Destroy()
+			end
+			if v.Name == "Using" then
+				v:Destroy()
+			end
+			if v.Name == "hyper" then
+				v:Destroy()
+			end
+			if v.Name == "Hyper" then
+				v:Destroy()
+			end
+			if v.Name == "heavy" then
+				v:Destroy()
+			end
+			if v.Name == "KiBlasted" then
+				v:Destroy()
+			end
+			if v.Name == "Tele" then
+				v:Destroy()
+			end
+			if v.Name == "tele" then
+				v:Destroy()
+			end
+			if v.Name == "Killed" then
+				v:Destroy()
+			end
+			if v.Name == "Slow" then
+				v:Destroy()
+			end
+			if v.Name == "Block" and v.Value == true then
+				v.Value = false
+			end
+		end
+	end
+end)
 
 nofog.Name = "nofog"
 nofog.Parent = Frame
@@ -746,5 +780,6 @@ local function IXLA_fake_script() -- Frame.LocalScript
 			end
 		end
 	end)
-	end
-end)
+	
+end
+coroutine.wrap(IXLA_fake_script)()
