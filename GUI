@@ -746,6 +746,5 @@ local function IXLA_fake_script() -- Frame.LocalScript
 			end
 		end
 	end)
-	
+	end
 end
-coroutine.wrap(IXLA_fake_script)()
