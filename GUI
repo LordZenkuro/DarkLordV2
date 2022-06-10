@@ -779,7 +779,7 @@ end)
 			[1] = "k"
 		}
 	)
-end)
+	end)
 
 earthgodmode.Name = "earthgodmode"
 earthgodmode.Parent = Frame
