@@ -779,6 +779,7 @@ end)
 			[1] = "k"
 		}
 	)
+end)
 
 earthgodmode.Name = "earthgodmode"
 earthgodmode.Parent = Frame
@@ -1045,5 +1046,3 @@ local function IXLA_fake_script() -- Frame.LocalScript
 	
 end
 coroutine.wrap(IXLA_fake_script)()
-
-end)
