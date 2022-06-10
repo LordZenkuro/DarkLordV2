@@ -779,7 +779,40 @@ end)
 			[1] = "k"
 		}
 	)
-	end)
+end)
+
+antiglitch.Name = "antiglitch"
+antiglitch.Parent = Frame
+antiglitch.BackgroundColor3 = Color3.fromRGB(150, 80, 255)
+antiglitch.Position = UDim2.new(0.211229935, 0, 0.359649152, 0)
+antiglitch.Size = UDim2.new(0, 143, 0, 36)
+antiglitch.Font = Enum.Font.SciFi
+antiglitch.Text = "AntiGlitch"
+antiglitch.TextColor3 = Color3.fromRGB(0, 0, 0)
+antiglitch.TextSize = 14.000
+antiglitch.MouseButton1Down:connect(function()
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "AntiGlitch";
+		Text = "Activated";
+	})
+	if not game:IsLoaded() then 
+		game.Loaded:Wait() 
+	end 
+	wait(1)
+	while wait() do
+		local Devil = game.Players.LocalPlayer
+		local Angel = game.Players.LocalPlayer.Character
+		local Guardian = Angel.LowerTorso:WaitForChild("BodyVelocity")
+		if Guardian then Guardian:Destroy()
+		end
+	end
+	while wait() do
+		local x = game.Players.LocalPlayer.Character.LowerTorso:WaitForChild("KnockBacked")
+		if x then x:Destroy()
+		end
+	end
+end)
+
 
 earthgodmode.Name = "earthgodmode"
 earthgodmode.Parent = Frame
