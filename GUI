@@ -24,7 +24,7 @@ local nowings = Instance.new("TextButton")
 local toprespawn = Instance.new("TextButton")
 local infiniteyield = Instance.new("TextButton")
 local statchecker = Instance.new("TextButton")
-local zenniwish = Instance.new("TextButton")
+local telespeed = Instance.new("TextButton")
 local redquest = Instance.new("TextButton")
 local antiglitch = Instance.new("TextButton")
 local earthgodmode = Instance.new("TextButton")
@@ -435,29 +435,62 @@ statchecker.MouseButton1Down:connect(function()
 
 end)
 
-zenniwish.Name = "zenniwish"
-zenniwish.Parent = Frame
-zenniwish.BackgroundColor3 = Color3.fromRGB(0, 255, 144)
-zenniwish.Position = UDim2.new(0.786096275, 0, 0.254385978, 0)
-zenniwish.Size = UDim2.new(0, 143, 0, 36)
-zenniwish.Font = Enum.Font.SciFi
-zenniwish.Text = "ZenniWish"
-zenniwish.TextColor3 = Color3.fromRGB(0, 0, 0)
-zenniwish.TextSize = 14.000
-zenniwish.MouseButton1Down:connect(function()
+telespeed.Name = "telespeed"
+telespeed.Parent = Frame
+telespeed.BackgroundColor3 = Color3.fromRGB(0, 255, 144)
+telespeed.Position = UDim2.new(0.786096275, 0, 0.254385978, 0)
+telespeed.Size = UDim2.new(0, 143, 0, 36)
+telespeed.Font = Enum.Font.SciFi
+telespeed.Text = "TeleSpeed"
+telespeed.TextColor3 = Color3.fromRGB(0, 0, 0)
+telespeed.TextSize = 14.000
+telespeed.MouseButton1Down:connect(function()
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "Zenni Wish";
-		Text = "YOU HAVE TO FINISH TOP BEFORE USING";
+		Title = "Tele Speed";
+		Text = "Activated";
 	})
-	AutoWish = 'Zenni'
+_G.speed = 2200
 
-	if AutoWish == 'Zenni' or AutoWish == 'zenni' then
-		loadstring(game:HttpGet("https://shuko.000webhostapp.com/Zenni", true))()
-	elseif AutoWish == 'Exp' or AutoWish == 'exp' then
-		loadstring(game:HttpGet("https://shuko.000webhostapp.com/Exp", true))()
-	elseif AutoWish == 'Level Cap' or AutoWish == 'level cap' then
-		loadstring(game:HttpGet("https://shuko.000webhostapp.com/Level%20Cap", true))()
-	end warn('Debugging')
+down = false
+velocity = Instance.new("BodyVelocity")
+velocity.maxForce = Vector3.new(10000000, 0, 10000000)
+local speed = telespeed
+gyro = Instance.new("BodyGyro")
+gyro.maxTorque = Vector3.new(10000000, 0, 10000000)
+local hum = game.Players.LocalPlayer.Character.Humanoid
+function onButton1Down(mouse)
+    down = true
+    velocity.Parent = game.Players.LocalPlayer.Character.UpperTorso
+    velocity.velocity = (hum.MoveDirection) * _G.speed
+    gyro.Parent = game.Players.LocalPlayer.Character.UpperTorso
+    while down do
+        if not down then
+            break
+        end
+        velocity.velocity = (hum.MoveDirection) * _G.speed
+        local refpos = gyro.Parent.Position + (gyro.Parent.Position - workspace.CurrentCamera.CoordinateFrame.p).unit * 5
+        gyro.cframe = CFrame.new(gyro.Parent.Position, Vector3.new(refpos.x, gyro.Parent.Position.y, refpos.z))
+        wait(0.1)
+    end
+end
+function onButton1Up(mouse)
+    velocity.Parent = nil
+    gyro.Parent = nil
+    down = false
+end
+function onSelected(mouse)
+    mouse.KeyDown:connect(function(k)
+        if k:upper() == "Q" then
+            onButton1Down(mouse)
+        end
+    end)
+    mouse.KeyUp:connect(function(k)
+        if k:upper() == "Q" then
+            onButton1Up(mouse)
+        end
+    end)
+end
+onSelected(game.Players.LocalPlayer:GetMouse())
 end)
 
 redquest.Name = "redquest"
