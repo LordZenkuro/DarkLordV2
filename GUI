@@ -57,7 +57,7 @@ Frame.Active = true
 Frame.Draggable = true
 
 TextLabel.Parent = Frame
-TextLabel.BackgroundColor3 = Color3.fromRGB(135, 1, 8)
+TextLabel.BackgroundColor3 = Color3.fromRGB(235, 52, 192)
 TextLabel.Size = UDim2.new(0, 909, 0, 39)
 TextLabel.Font = Enum.Font.SciFi
 TextLabel.Text = "DarkLord GUI V2 | By Zenkuro"
@@ -66,7 +66,7 @@ TextLabel.TextSize = 40.000
 
 fastrun.Name = "fastrun"
 fastrun.Parent = Frame
-fastrun.BackgroundColor3 = Color3.fromRGB(135, 1, 8)
+fastrun.BackgroundColor3 = Color3.fromRGB(235, 52, 192)
 fastrun.Position = UDim2.new(0.0200534761, 0, 0.149122819, 0)
 fastrun.Size = UDim2.new(0, 143, 0, 36)
 fastrun.Font = Enum.Font.SciFi
@@ -115,7 +115,7 @@ end)
 
 noslow.Name = "noslow"
 noslow.Parent = Frame
-noslow.BackgroundColor3 = Color3.fromRGB(135, 1, 8)
+noslow.BackgroundColor3 = Color3.fromRGB(235, 52, 192)
 noslow.Position = UDim2.new(0.21122995, 0, 0.149122819, 0)
 noslow.Size = UDim2.new(0, 143, 0, 36)
 noslow.Font = Enum.Font.SciFi
@@ -179,7 +179,7 @@ end)
 
 nofog.Name = "nofog"
 nofog.Parent = Frame
-nofog.BackgroundColor3 = Color3.fromRGB(135, 1, 8)
+nofog.BackgroundColor3 = Color3.fromRGB(235, 52, 192)
 nofog.Position = UDim2.new(0.403743327, 0, 0.149122819, 0)
 nofog.Size = UDim2.new(0, 143, 0, 36)
 nofog.Font = Enum.Font.SciFi
@@ -202,7 +202,7 @@ end)
 
 autoblock.Name = "autoblock"
 autoblock.Parent = Frame
-autoblock.BackgroundColor3 = Color3.fromRGB(135, 1, 8)
+autoblock.BackgroundColor3 = Color3.fromRGB(235, 52, 192)
 autoblock.Position = UDim2.new(0.594919801, 0, 0.149122819, 0)
 autoblock.Size = UDim2.new(0, 143, 0, 36)
 autoblock.Font = Enum.Font.SciFi
@@ -261,7 +261,7 @@ end)
 
 nolevel.Name = "nolevel"
 nolevel.Parent = Frame
-nolevel.BackgroundColor3 = Color3.fromRGB(135, 1, 8)
+nolevel.BackgroundColor3 = Color3.fromRGB(235, 52, 192)
 nolevel.Position = UDim2.new(0.786096275, 0, 0.149122819, 0)
 nolevel.Size = UDim2.new(0, 143, 0, 36)
 nolevel.Font = Enum.Font.SciFi
@@ -282,7 +282,7 @@ end)
 
 nowings.Name = "nowings"
 nowings.Parent = Frame
-nowings.BackgroundColor3 = Color3.fromRGB(135, 1, 8)
+nowings.BackgroundColor3 = Color3.fromRGB(235, 52, 192)
 nowings.Position = UDim2.new(0.0200534761, 0, 0.254385978, 0)
 nowings.Size = UDim2.new(0, 143, 0, 36)
 nowings.Font = Enum.Font.SciFi
@@ -354,7 +354,7 @@ end)
 
 toprespawn.Name = "toprespawn"
 toprespawn.Parent = Frame
-toprespawn.BackgroundColor3 = Color3.fromRGB(135, 1, 8)
+toprespawn.BackgroundColor3 = Color3.fromRGB(235, 52, 192)
 toprespawn.Position = UDim2.new(0.21122995, 0, 0.254385978, 0)
 toprespawn.Size = UDim2.new(0, 143, 0, 36)
 toprespawn.Font = Enum.Font.SciFi
@@ -379,7 +379,7 @@ end)
 
 infiniteyield.Name = "infiniteyield"
 infiniteyield.Parent = Frame
-infiniteyield.BackgroundColor3 = Color3.fromRGB(135, 1, 8)
+infiniteyield.BackgroundColor3 = Color3.fromRGB(235, 52, 192)
 infiniteyield.Position = UDim2.new(0.403743327, 0, 0.254385978, 0)
 infiniteyield.Size = UDim2.new(0, 143, 0, 36)
 infiniteyield.Font = Enum.Font.SciFi
@@ -396,7 +396,7 @@ end)
 
 statchecker.Name = "statchecker"
 statchecker.Parent = Frame
-statchecker.BackgroundColor3 = Color3.fromRGB(135, 1, 8)
+statchecker.BackgroundColor3 = Color3.fromRGB(235, 52, 192)
 statchecker.Position = UDim2.new(0.594919801, 0, 0.254385978, 0)
 statchecker.Size = UDim2.new(0, 143, 0, 36)
 statchecker.Font = Enum.Font.SciFi
@@ -437,7 +437,7 @@ end)
 
 telespeed.Name = "telespeed"
 telespeed.Parent = Frame
-telespeed.BackgroundColor3 = Color3.fromRGB(135, 1, 8)
+telespeed.BackgroundColor3 = Color3.fromRGB(235, 52, 192)
 telespeed.Position = UDim2.new(0.786096275, 0, 0.254385978, 0)
 telespeed.Size = UDim2.new(0, 143, 0, 36)
 telespeed.Font = Enum.Font.SciFi
@@ -495,7 +495,7 @@ end)
 
 redquest.Name = "redquest"
 redquest.Parent = Frame
-redquest.BackgroundColor3 = Color3.fromRGB(135, 1, 8)
+redquest.BackgroundColor3 = Color3.fromRGB(235, 52, 192)
 redquest.Position = UDim2.new(0.0200534761, 0, 0.359649152, 0)
 redquest.Size = UDim2.new(0, 143, 0, 36)
 redquest.Font = Enum.Font.SciFi
@@ -816,7 +816,7 @@ end)
 
 antiglitch.Name = "antiglitch"
 antiglitch.Parent = Frame
-antiglitch.BackgroundColor3 = Color3.fromRGB(135, 1, 8)
+antiglitch.BackgroundColor3 = Color3.fromRGB(235, 52, 192)
 antiglitch.Position = UDim2.new(0.211229935, 0, 0.359649152, 0)
 antiglitch.Size = UDim2.new(0, 143, 0, 36)
 antiglitch.Font = Enum.Font.SciFi
@@ -849,7 +849,7 @@ end)
 
 earthgodmode.Name = "earthgodmode"
 earthgodmode.Parent = Frame
-earthgodmode.BackgroundColor3 = Color3.fromRGB(135, 1, 8)
+earthgodmode.BackgroundColor3 = Color3.fromRGB(235, 52, 192)
 earthgodmode.Position = UDim2.new(0.403743297, 0, 0.359649152, 0)
 earthgodmode.Size = UDim2.new(0, 143, 0, 36)
 earthgodmode.Font = Enum.Font.SciFi
@@ -873,7 +873,7 @@ end)
 
 noaura.Name = "noaura"
 noaura.Parent = Frame
-noaura.BackgroundColor3 = Color3.fromRGB(135, 1, 8)
+noaura.BackgroundColor3 = Color3.fromRGB(235, 52, 192)
 noaura.Position = UDim2.new(0.594919801, 0, 0.359649152, 0)
 noaura.Size = UDim2.new(0, 143, 0, 36)
 noaura.Font = Enum.Font.SciFi
@@ -894,7 +894,7 @@ end)
 
 infinitexp.Name = "infinitexp"
 infinitexp.Parent = Frame
-infinitexp.BackgroundColor3 = Color3.fromRGB(135, 1, 8)
+infinitexp.BackgroundColor3 = Color3.fromRGB(235, 52, 192)
 infinitexp.Position = UDim2.new(0.786096275, 0, 0.359649152, 0)
 infinitexp.Size = UDim2.new(0, 143, 0, 36)
 infinitexp.Font = Enum.Font.SciFi
@@ -919,7 +919,7 @@ infinitexp.MouseButton1Down:connect(function()
 end)
 
 TextLabel_2.Parent = Frame
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(135, 1, 8)
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(235, 52, 192)
 TextLabel_2.Position = UDim2.new(0, 0, 0.485380203, 0)
 TextLabel_2.Size = UDim2.new(0, 909, 0, 39)
 TextLabel_2.Font = Enum.Font.SciFi
@@ -929,7 +929,7 @@ TextLabel_2.TextSize = 40.000
 
 earthtp.Name = "earthtp"
 earthtp.Parent = Frame
-earthtp.BackgroundColor3 = Color3.fromRGB(135, 1, 8)
+earthtp.BackgroundColor3 = Color3.fromRGB(235, 52, 192)
 earthtp.Position = UDim2.new(0.0200535171, 0, 0.622807026, 0)
 earthtp.Size = UDim2.new(0, 217, 0, 35)
 earthtp.Font = Enum.Font.SciFi
@@ -942,7 +942,7 @@ end)
 
 namektp.Name = "namektp"
 namektp.Parent = Frame
-namektp.BackgroundColor3 = Color3.fromRGB(135, 1, 8)
+namektp.BackgroundColor3 = Color3.fromRGB(235, 52, 192)
 namektp.Position = UDim2.new(0.352941245, 0, 0.622807026, 0)
 namektp.Size = UDim2.new(0, 217, 0, 35)
 namektp.Font = Enum.Font.SciFi
@@ -955,7 +955,7 @@ end)
 
 spacetp.Name = "spacetp"
 spacetp.Parent = Frame
-spacetp.BackgroundColor3 = Color3.fromRGB(135, 1, 8)
+spacetp.BackgroundColor3 = Color3.fromRGB(235, 52, 192)
 spacetp.Position = UDim2.new(0.685828984, 0, 0.622807026, 0)
 spacetp.Size = UDim2.new(0, 217, 0, 35)
 spacetp.Font = Enum.Font.SciFi
@@ -968,7 +968,7 @@ end)
 
 futuretp.Name = "futuretp"
 futuretp.Parent = Frame
-futuretp.BackgroundColor3 = Color3.fromRGB(135, 1, 8)
+futuretp.BackgroundColor3 = Color3.fromRGB(235, 52, 192)
 futuretp.Position = UDim2.new(0.0200535171, 0, 0.725146234, 0)
 futuretp.Size = UDim2.new(0, 217, 0, 35)
 futuretp.Font = Enum.Font.SciFi
@@ -981,7 +981,7 @@ end)
 
 helltp.Name = "helltp"
 helltp.Parent = Frame
-helltp.BackgroundColor3 = Color3.fromRGB(135, 1, 8)
+helltp.BackgroundColor3 = Color3.fromRGB(235, 52, 192)
 helltp.Position = UDim2.new(0.352941245, 0, 0.725146234, 0)
 helltp.Size = UDim2.new(0, 217, 0, 35)
 helltp.Font = Enum.Font.SciFi
@@ -994,7 +994,7 @@ end)
 
 heaventp.Name = "heaventp"
 heaventp.Parent = Frame
-heaventp.BackgroundColor3 = Color3.fromRGB(135, 1, 8)
+heaventp.BackgroundColor3 = Color3.fromRGB(235, 52, 192)
 heaventp.Position = UDim2.new(0.685828984, 0, 0.725146234, 0)
 heaventp.Size = UDim2.new(0, 217, 0, 35)
 heaventp.Font = Enum.Font.SciFi
@@ -1007,7 +1007,7 @@ end)
 
 queuetp.Name = "queuetp"
 queuetp.Parent = Frame
-queuetp.BackgroundColor3 = Color3.fromRGB(135, 1, 8)
+queuetp.BackgroundColor3 = Color3.fromRGB(235, 52, 192)
 queuetp.Position = UDim2.new(0.0200535171, 0, 0.824561477, 0)
 queuetp.Size = UDim2.new(0, 217, 0, 35)
 queuetp.Font = Enum.Font.SciFi
@@ -1021,7 +1021,7 @@ end)
 
 zarotp.Name = "zarotp"
 zarotp.Parent = Frame
-zarotp.BackgroundColor3 = Color3.fromRGB(135, 1, 8)
+zarotp.BackgroundColor3 = Color3.fromRGB(235, 52, 192)
 zarotp.Position = UDim2.new(0.352941245, 0, 0.824561477, 0)
 zarotp.Size = UDim2.new(0, 217, 0, 35)
 zarotp.Font = Enum.Font.SciFi
@@ -1034,7 +1034,7 @@ end)
 
 lookouttp.Name = "lookouttp"
 lookouttp.Parent = Frame
-lookouttp.BackgroundColor3 = Color3.fromRGB(135, 1, 8)
+lookouttp.BackgroundColor3 = Color3.fromRGB(235, 52, 192)
 lookouttp.Position = UDim2.new(0.685828984, 0, 0.824561477, 0)
 lookouttp.Size = UDim2.new(0, 217, 0, 35)
 lookouttp.Font = Enum.Font.SciFi
@@ -1076,7 +1076,7 @@ lookouttp.MouseButton1Down:connect(function()
 end)
 
 TextLabel_3.Parent = Frame
-TextLabel_3.BackgroundColor3 = Color3.fromRGB(135, 1, 8)
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(235, 52, 192)
 TextLabel_3.Position = UDim2.new(0, 0, 0.979532242, 0)
 TextLabel_3.Size = UDim2.new(0, 909, 0, 6)
 TextLabel_3.Font = Enum.Font.SciFi
@@ -1085,7 +1085,7 @@ TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_3.TextSize = 40.000
 
 TextLabel_4.Parent = Frame
-TextLabel_4.BackgroundColor3 = Color3.fromRGB(135, 1, 8)
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(235, 52, 192)
 TextLabel_4.Position = UDim2.new(0, 0, 0.979532242, 0)
 TextLabel_4.Size = UDim2.new(0, 909, 0, 6)
 TextLabel_4.Font = Enum.Font.SciFi
